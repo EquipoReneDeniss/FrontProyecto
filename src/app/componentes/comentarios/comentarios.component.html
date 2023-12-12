@@ -2,12 +2,15 @@
     <h1 style="margin-top: 12px;">Comentarios y Reseñas</h1>
     <div class="comentarios">
         <form [formGroup]="comment" (submit)="saveComment()">
-            <input type="text" placeholder="Escribe un comentario">
+            <input type="text" placeholder="Escribe un comentario" formControlName="content">
             <button type="submit" class="btn btn-primary">Guardar Comentario</button>
         </form>
 
     </div>
-    <div>
-        
+    <div style="width: 80%;" class="comments-container">
+        <p *ngIf="comments.length < 0">No hay comentarios</p>
+        <div *ngFor="let commentario of comments" class="comments">
+            <span>{{commentario.content}}</span>
+        </div>
     </div>
 </div>

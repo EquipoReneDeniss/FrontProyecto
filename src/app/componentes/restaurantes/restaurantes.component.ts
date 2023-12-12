@@ -1,5 +1,6 @@
+import {faClock, faLocationDot, faPhone, faUtensils} from '@fortawesome/free-solid-svg-icons';
+
 import { Component } from '@angular/core';
-import {faLocationDot,faPhone,faClock,faUtensils  } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-restaurantes',
@@ -7,7 +8,7 @@ import {faLocationDot,faPhone,faClock,faUtensils  } from '@fortawesome/free-soli
   styleUrls: ['./restaurantes.component.css']
 })
 export class RestaurantesComponent {
-
+  categoryID: number = 5;
   faUtensils=faUtensils;
   faLocationDot=faLocationDot;
   faPhone=faPhone;

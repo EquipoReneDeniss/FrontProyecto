@@ -22,3 +22,18 @@
     outline: none;
     border: 1.5px solid blue;
 }
+
+.comments{
+    width: 100%;
+    padding: 4px;
+    border-radius: 8px;
+    border: 1px solid blue;
+    background-color: rgba(241, 241, 241, 0.701);
+}
+
+.comments-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+}

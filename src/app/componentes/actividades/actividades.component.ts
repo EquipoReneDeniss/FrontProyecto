@@ -1,12 +1,15 @@
+import {faChartLine, faClock, faLocationDot, faPhone, faUtensils, faWheatAwn} from '@fortawesome/free-solid-svg-icons';
+
 import { Component } from '@angular/core';
-import {faLocationDot,faPhone,faClock,faUtensils, faChartLine, faWheatAwn} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-actividades',
   templateUrl: './actividades.component.html',
   styleUrls: ['./actividades.component.css']
 })
+
 export class ActividadesComponent {
+  categoryID: number = 4;
   faWheatAwn = faWheatAwn;
   faChartLine=faChartLine;
   faUtensils=faUtensils;

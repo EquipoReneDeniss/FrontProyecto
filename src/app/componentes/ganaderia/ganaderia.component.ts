@@ -7,5 +7,6 @@ import {faCow} from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./ganaderia.component.css']
 })
 export class GanaderiaComponent {
+  categoryID: number = 6;
   faCow = faCow;
 }

@@ -1,5 +1,6 @@
+import { faMugSaucer, faWheatAwn } from '@fortawesome/free-solid-svg-icons';
+
 import { Component } from '@angular/core';
-import { faWheatAwn, faMugSaucer} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-agricultura',
@@ -7,6 +8,7 @@ import { faWheatAwn, faMugSaucer} from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./agricultura.component.css']
 })
 export class AgriculturaComponent {
+  categoryID: number = 5;
   
   faMugSaucer = faMugSaucer;
   faWheatAwn = faWheatAwn;

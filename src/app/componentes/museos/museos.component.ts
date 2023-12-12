@@ -1,5 +1,6 @@
+import {faBellConcierge, faBuildingColumns, faClock, faLocationDot, faPhone} from '@fortawesome/free-solid-svg-icons';
+
 import { Component } from '@angular/core';
-import {faLocationDot,faPhone,faClock,faBellConcierge,faBuildingColumns} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-museos',
@@ -7,6 +8,7 @@ import {faLocationDot,faPhone,faClock,faBellConcierge,faBuildingColumns} from '@
   styleUrls: ['./museos.component.css']
 })
 export class MuseosComponent {
+  categoryID: number = 3;
   faBuildingColumns=faBuildingColumns;
   faBellConcierge=faBellConcierge;
   faLocationDot=faLocationDot;
