@@ -14,3 +14,25 @@
     align-content: center;
     
 }
+
+
+.error {
+    width: 80%;
+    border-radius: 12px;
+    margin-inline: auto;
+    background-color: red;
+    padding-block: 6px;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+.correct {
+    width: 80%;
+    padding-block: 6px;
+    border-radius: 12px;
+    margin-inline: auto;
+    background-color: greenyellow;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}

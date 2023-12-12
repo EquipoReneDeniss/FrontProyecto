@@ -1,7 +1,13 @@
-<div class="container-fluid" style="background-color: black; height: 50vh;">
-    <div class="comentarios"></div>
-        <form>
-            <button type="submit" class="btn btn-primary">Iniciar sesion</button>
+<div style="background-color: white; margin-top: 35px; height: 50vh; display: flex; align-items: center; flex-direction: column;">
+    <h1 style="margin-top: 12px;">Comentarios y Reseñas</h1>
+    <div class="comentarios">
+        <form [formGroup]="comment" (submit)="saveComment()">
+            <input type="text" placeholder="Escribe un comentario">
+            <button type="submit" class="btn btn-primary">Guardar Comentario</button>
         </form>
 
+    </div>
+    <div>
+        
+    </div>
 </div>

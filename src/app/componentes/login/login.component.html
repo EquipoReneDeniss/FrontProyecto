@@ -2,16 +2,18 @@
     <div class="contenedor-hijo">
 
         <h1 class="text-center">INCIAR SESION</h1>
-        <form>
+        <h2 class="error" *ngIf="error">Correo o contraseña incorrectos</h2>
+        <h2 class="correct" *ngIf="correct">Sesión Correctamente Iniciada</h2>
+        <form [formGroup]="auth" (submit)="onSubmit()">
             <div>
               <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <input type="email" class="form-control" formControlName="email" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
             <div class="mb-3">
               <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
+              <input type="password" class="form-control" formControlName="password" id="exampleInputPassword1">
             </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="submit" class="btn btn-primary" [disabled]="auth.invalid">Iniciar Sesión</button>
           </form>
 
     </div>

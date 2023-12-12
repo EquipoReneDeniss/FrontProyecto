@@ -1,46 +1,65 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary" style="height: auto;">
-  <a class="navbar-brand col-12 text-center" href="#"> <!-- centrar el icono  -->
+  <a class="navbar-brand col-12 text-center" > <!-- centrar el icono  -->
 
-      <div class="contenedorImagen">
-        <img class="logoImagen" src="../../../assets/imagenes/navbar/logo xicotepec.png"  >
-      </div>
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse  " id="navbarSupportedContent">
-      <ul class="navbar-nav mx-auto" >
-
-        <li class="nav-item">
-          <a class="navbar-brand  textoMenu" href="#" routerLink="/restaurantes"> <fa-icon [icon]="faUtensils"> </fa-icon> Restaurantes</a>
-        </li>
-       
-         <li class="nav-item ">
-          <a class="navbar-brand  textoMenu" href="#" routerLink="/hospedajes"> <fa-icon [icon]="faBellConcierge"> </fa-icon> Hospedajes</a>
-         </li>
-
-         <li class="nav-item">
-            <a class="navbar-brand  textoMenu" href="#" routerLink="/museos"> <fa-icon [icon]="faBuildingColumns"> </fa-icon> Museos</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="navbar-brand  textoMenu" href="#" routerLink="/actividades" > <fa-icon [icon]="faChartLine"></fa-icon> Actividades</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="navbar-brand  textoMenu" href="#" routerLink="/agricultura" > <fa-icon [icon]="faWheatAwn"> </fa-icon> Agricultura</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="navbar-brand  textoMenu" href="#" routerLink="/ganaderia"> <fa-icon [icon]="faCow"> </fa-icon> Ganaderia</a>
-          </li>
-
-
-        
-      </ul>
+    <div class="contenedorImagen">
+      <img class="logoImagen" src="../../../assets/imagenes/navbar/logo xicotepec.png">
     </div>
-  </div>
-</a>
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+
+          <li class="nav-item">
+            <a class="navbar-brand  textoMenu" href="#" routerLink="/restaurantes"> <fa-icon [icon]="faUtensils">
+              </fa-icon> Restaurantes</a>
+          </li>
+
+          <li class="nav-item ">
+            <a class="navbar-brand  textoMenu" href="#" routerLink="/hospedajes"> <fa-icon [icon]="faBellConcierge">
+              </fa-icon> Hospedajes</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="navbar-brand  textoMenu" href="#" routerLink="/museos"> <fa-icon [icon]="faBuildingColumns">
+              </fa-icon> Museos</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="navbar-brand  textoMenu" href="#" routerLink="/actividades"> <fa-icon
+                [icon]="faChartLine"></fa-icon> Actividades</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="navbar-brand  textoMenu" href="#" routerLink="/agricultura"> <fa-icon [icon]="faWheatAwn">
+              </fa-icon> Agricultura</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="navbar-brand  textoMenu" href="#" routerLink="/ganaderia"> <fa-icon [icon]="faCow"> </fa-icon>
+              Ganaderia</a>
+          </li>
+          <li>
+            <a class="navbar-brand textoMenu" routerLink="/login">
+              <mat-icon>person</mat-icon>
+              Iniciar Sesión
+            </a>
+          </li>
+          <li>
+            <a class="navbar-brand textoMenu" routerLink="/register">
+              <mat-icon>person_add</mat-icon>
+              Registrarse
+            </a>
+          </li>
+
+
+
+        </ul>
+      </div>
+    </div>
+  </a>
 </nav>
 
 <!--
@@ -61,7 +80,7 @@
     </nav>
 -->
 
-  <!--    <div class="container-fluid" style="background-color: red;">
+<!--    <div class="container-fluid" style="background-color: red;">
       <a class="navbar-brand" href="#">Navbar</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
