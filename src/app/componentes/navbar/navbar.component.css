@@ -1,0 +1,33 @@
+
+.logoImagen {
+    margin-top: 30px;
+    width: 200px;
+}
+
+.contenedorImagen img{
+    transition: all .5s;
+}
+
+.logoImagen:hover {
+    transform: scale(1.2);
+}
+
+.textoMenu {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.textoMenu:hover {
+    color: rgb(148, 236, 16);
+    border-radius: 10px;
+    transform: scale(1.05);
+}
+
+.nav-item a{
+    transition: all .3s;
+}
+
+.nav-item{
+    font-size: 10px;
+    margin-right: 0 auto;
+}

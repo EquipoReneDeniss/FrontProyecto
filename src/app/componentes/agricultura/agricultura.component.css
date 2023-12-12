@@ -1,0 +1,200 @@
+.container-fluid2{
+    background-color: white;
+}
+.iconosMenu {
+    font-size: 50px;
+}
+
+/*////////////////Imagenes de arriba ////////////////*/
+
+.container-fluid {
+    width: 100%;
+    display: flex;  /* justify-content. Ajusta los elementos dentro de la caja*/
+    justify-content: center;
+    height: 60vh;   /* alto que ocupara el contenedor de la galeria de imagenes*/
+    gap: 10px;
+    padding-top: 3%;
+    padding-bottom: 1%;
+  
+    > div {
+      flex: 0 0 120px;
+      border-radius: 0.5rem;
+      transition: 0.5s ease-in-out;
+      box-shadow: 1px 5px 15px #ffffff;
+      position: relative;
+      overflow: hidden;
+  
+      &:nth-of-type(1) {
+        background: url("https://perfectdailygrind.com/es/wp-content/uploads/sites/2/2019/03/mike-kenneally-46284-unsplash-scaled.jpg")
+          no-repeat 50% / cover;
+      }
+      &:nth-of-type(2) {
+        background: url("https://res.cloudinary.com/freshis/image/upload/v1642759821/propiedades_acelgas_32d2bd531e.jpg")
+          no-repeat 50% / cover;
+      }
+      &:nth-of-type(3) {
+        background: url("https://revistalacampina.mx/wp-content/uploads/2018/03/chile_serrano.jpg")
+          no-repeat 50% / cover;
+      }
+      &:nth-of-type(4) {
+        background: url("https://www.semana.com/resizer/AvMROPKHt2H7r0y1elLZTvDVlNM=/1280x0/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/HK3OLK3ENVAIFCRKLSVOISNHMI.jpg")
+          no-repeat 50% / cover;
+      }
+      &:nth-of-type(5) {
+        background: url("https://www.animalgourmet.com/wp-content/uploads/2020/04/pápalo2.jpg")
+          no-repeat 50% / cover;
+      }
+      &:nth-of-type(6) {
+        background: url("https://saborusa.com.pa/imagesmg/imagenes/5ff3e6a0b703f_potatoes-food-supermarket-agriculture-JG7QGNY.jpg")
+          no-repeat 50% / cover;
+      }
+      &:nth-of-type(7) {
+        background: url("https://www.gorgreen.com/img/contenido/OuBWkQsJQehOt8JBc8SFiaSZCGxoOOuB1N9Q2R7B.jpeg?w=1900&h=1010&fit=crop&fm=jpg&q=80")
+          no-repeat 50% / cover;
+      }
+      &:nth-of-type(8) {
+        background: url("https://www.eltiempo.com/files/image_640_428/files/crop/uploads/2022/11/20/637ab0fcb389b.r_1675201497640.0-273-1920-1232.jpeg")
+          no-repeat 50% / cover;
+      }
+      &:nth-of-type(9) {
+        background: url("https://images.pexels.com/photos/247322/pexels-photo-247322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+          no-repeat 50% / cover;
+      }
+      &:nth-of-type(10) {
+        background: url("https://images.pexels.com/photos/247322/pexels-photo-247322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+          no-repeat 50% / cover;
+      }
+  
+      .content {
+        font-size: 1.5rem;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        padding: 15px;
+        opacity: 0;
+        flex-direction: column;
+        height: 100%;
+        justify-content: flex-end;
+        background: rgb(2, 2, 46);
+        background: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.568) 0%,
+          rgba(255, 255, 255, 0) 100%
+        );
+        transform: translatey(100%);
+        transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
+        visibility: hidden;
+  
+        span {
+          display: block;
+          margin-top: 5px;
+          font-size: 1.2rem;
+        }
+      }
+  
+      &:hover {
+        cursor: pointer;
+        flex: 0 0 250px;
+        box-shadow: 1px 3px 15px #000000;
+        transform: translatey(-30px);
+      }
+  
+      &:hover .content {
+        opacity: 1;
+        transform: translatey(0%);
+        visibility: visible;
+        color: white;
+      }
+    }
+  }
+
+
+/*Mi contenedor con la prueba usando la galeria*/
+
+  .container-fluid3{
+    background-color: white;
+    height: 60%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 5%;
+  }
+
+  .container-fluid3 p{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    height: auto;
+  }
+
+  .container-fluid3 h1{
+    height: auto;
+  }
+.titulo{
+    height: 10vh;
+    background-color: #fff4d3;
+    display: flex;
+    justify-content: center;    /*Centrado horizontal*/
+    align-items: center;    /*centrado vertical*/
+}
+.titulo h1{
+    font-family: 'Playfair Display', serif;
+}
+
+
+.container-fluid4 img{
+    margin-left: 5%;
+    height: 20%px;
+    padding-top: 5%;
+}
+
+.container-fluid4 p{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+.info{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 5%;
+}
+
+.icon{
+    font-size: 50px;
+}
+
+
+
+/*////////////////////////////////*/
+
+
+                                
+                                /*Height: Altura . With: ancho*/
+                                .contenedor-papa{
+                                    background-color: red;
+                                    height: 100vh;
+                                }
+                                .galeria{
+                                    height: 30%;
+                                    background-color: green;
+                                }
+                                
+                                /*IMAGENES*/
+                                .galeria item{
+                                    height: 100%;
+                                }
+                                
+                                .contenedor-imagen{
+                                    width: 10%;
+                                    height: 100px   ;
+                                    background-color: yellow;
+                                    border: solid black;
+                                }
+                                
+                                .imagen1 img{
+                                    object-fit: fill;
+                                }
+                                
+                                .carrucel{
+                                    background-color: blue;
+                                    width: 40%;
+                                    height: 70%;
+                                }

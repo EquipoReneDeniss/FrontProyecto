@@ -1,0 +1,70 @@
+/*//////////////////////////CONTENEDORES MOLIENDA//////////////////////////*/
+
+
+
+.contenedor-molienda{                                 /*height="altura" width="ancho"*/
+    height: 100vh;
+    width: 100%;
+    background-color:bisque;
+}
+
+
+.contenedores-molienda{
+    width: 100%;
+    height: 80%;
+}
+.contenedor1-molienda{
+    width: 50%;
+    height: 100%;
+}
+.titulo-molienda{
+    width: 100%;
+    height: 20%;
+    overflow: hidden;
+}
+
+.titulo-molienda h2{
+    font-size: 4rem;
+    margin-left: 10vh;
+    margin-top: 5vh;
+    color: white;
+    position: absolute; /*Posicion absoluta paar que el tecto pueda estar por encima de la imagen*/
+}
+
+.titulo-molienda img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenedor2-molienda{
+    width: 50%;
+    height: 100%;
+    margin-right: 5%;
+}
+
+.carrucel{
+    width: 100%;
+    margin-top: 10%;
+}
+
+
+.informacion{
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+ul li{
+    transition: all .2s;
+}
+
+ul li:hover{
+    transform: scale(1.06);
+    background-color: rgb(253, 217, 173);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

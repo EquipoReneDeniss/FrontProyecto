@@ -1,0 +1,16 @@
+.container-fluid{
+    padding-left: 30%;
+    padding-right: 30%;
+    background-color: white; 
+    height: 60vh
+}
+
+.container-fluid form{
+    margin-top: 10%;
+}
+
+.contenedor-hijo{
+    background-color: wheat;
+    align-content: center;
+    
+}

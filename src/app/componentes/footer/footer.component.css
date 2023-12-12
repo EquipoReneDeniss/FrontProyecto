@@ -1,0 +1,28 @@
+footer {
+    align-content: center;
+}
+
+.whatsapp img{
+    height: 20px;
+}
+.whatsapp:hover{
+    background-color: #39dd41;
+
+}
+.instagram:hover{
+    background-color: #d041b3;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+
+}
+.facebook:hover{
+    background-color: #3b5998;
+}
+
+.rd img{
+    height: 30px;
+}
+
+.rd:hover{
+    background-color: #0accfd;
+}

@@ -1,0 +1,183 @@
+/*CONTENEDOR DE TITULO RESTAURANTES (container-fluid)*/
+.container-fluid{
+    background-color: white;
+}
+.iconosMenu {
+    font-size: 50px;
+}
+
+.card img{
+    transition: all .5s;
+}
+
+.card:hover img {
+    transform: scale(1.01);
+}
+
+.card:hover{
+    box-shadow: 0px 0px 5px 5px rgba(99, 99, 99, 0.693);
+    cursor: pointer;
+}
+
+/*//////////////////////////CONTENEDORES MOLIENDA//////////////////////////*/
+
+
+
+.contenedor-molienda{                                 /*height="altura" width="ancho"*/
+    height: 100vh;
+    width: 100%;
+    background-color:bisque;
+}
+
+
+.contenedores-molienda{
+    width: 100%;
+    height: 80%;
+}
+.contenedor1-molienda{
+    width: 50%;
+    height: 100%;
+}
+.titulo-molienda{
+    width: 100%;
+    height: 20%;
+    overflow: hidden;
+}
+
+.titulo-molienda h2{
+    font-size: 4rem;
+    margin-left: 10vh;
+    margin-top: 5vh;
+    color: white;
+    position: absolute; /*Posicion absoluta paar que el tecto pueda estar por encima de la imagen*/
+}
+
+.titulo-molienda img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenedor2-molienda{
+    width: 50%;
+    height: 100%;
+    margin-right: 5%;
+}
+
+.carrucel{
+    width: 100%;
+    margin-top: 10%;
+}
+
+
+.informacion{
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+
+
+/*//////////////////////////CONTENEDORES LA TERRAZA//////////////////////////*/
+
+.contenedor-terraza{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+
+.titulo-terraza{
+    width: 100%;
+    height: 20%;
+    overflow: hidden;
+}
+
+.titulo-terraza h2{
+    font-size: 4rem;
+    margin-left: 10vh;
+    margin-top: 5vh;
+    color: white;
+    border-radius: 10% 10% 10% 10%;
+    position: absolute; /*Posicion absoluta paar que el tecto pueda estar por encima de la imagen*/
+}
+
+.titulo-terraza img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.contenedor1-terraza{
+    width: 50%;
+    height: 80%;
+    margin-left: 5%;
+}
+
+.contenedor2-terraza{
+    width: 50%;
+    height: 80%;
+}
+
+.contenedores-terraza{
+    width: 100%;
+    height: 80%;
+}
+
+/*//////////////////////////CONTENEDORES EL CUATE//////////////////////////*/
+
+.contenedor-cuate{
+    height: 100vh;
+    width: 100%;
+    background-color:bisque;
+}
+
+.titulo-cuate{
+    width: 100%;
+    height: 20%;
+    overflow: hidden;
+}
+
+.titulo-cuate h2{
+    font-size: 4rem;
+    margin-left: 10vh;
+    margin-top: 5vh;
+    color: white;
+    border-radius: 10% 10% 10% 10%;
+    position: absolute; /*Posicion absoluta paar que el texto pueda estar por encima de la imagen*/
+}
+
+.titulo-cuate img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.contenedores-cuate{
+    width: 100%;
+    height: 80%;
+}
+
+.contenedor1-cuate{
+    width: 50%;
+    height: 80%;
+}
+
+.contenedor2-cuate{
+    width: 50%;
+    height: 80%;
+    margin-right: 5%;
+}
+
+.links li:hover{
+    transform: scale(1.06);
+    transition: all .2s;
+    background-color:rgb(255, 218, 173)
+}
+
+.links-white li:hover{
+    transform: scale(1.06);
+    transition: all .2s;
+    background-color:rgba(229, 229, 229, 0.582)
+}
